@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:fontFamily="@font/roboto_light"
+    tools:context=".Home">
+
+    <!--Layout da home onde efetuara a digitação da palavra que o cliente desejar-->
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:translationY="-180dp"
+        >
+
+        <!--   Imagem da opção do idioma -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eng"
+            android:layout_gravity="center_vertical"/>
+
+
+        <!--   Texto da opção de idioma -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <!--   Caixa de digitação  -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type a word..."
+        android:gravity="center"
+        android:textSize="32dp"
+        android:backgroundTint="@android:color/white"
+        android:inputType="text"
+        android:textColor="@color/black"
+        />
+
+
+    <!--   Botão de search -->
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="358dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:backgroundTint="@color/cyan"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:text="SEARCH"
+        android:textSize="18dp"
+        android:id="@+id/search"
+        />
+
+</LinearLayout>

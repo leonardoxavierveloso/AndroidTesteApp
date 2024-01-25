@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signature"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+
+    <!--Layout da assinatura para não tem o limite de pesquisa-->
+
+    <ImageView
+        android:layout_width="412dp"
+        android:layout_height="422.15dp"
+        android:layout_marginTop="-155dp"
+        android:translationX="695dp"
+        android:src="@drawable/img" />
+    
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon2"
+        android:layout_marginTop="30dp"
+        android:translationX="410dp"
+        android:translationY="20dp"
+        />
+    
+    <ImageView
+        android:layout_width="188.43dp"
+        android:layout_height="80dp"
+        android:src="@drawable/title"
+        android:translationX="250dp"
+        android:translationY="110dp"
+        />
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="54dp"
+        android:translationX="-25dp"
+        android:translationY="200dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Subscribe now to get unlimited searches and full access to all features."
+        />
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:translationX="-370dp"
+        android:translationY="250dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Try 7 Days Free, then only $19,99 per year. Cancel anytime."
+        />
+    
+    <Button
+        android:layout_width="358dp"
+        android:layout_height="64dp"
+        android:translationX="-725dp"
+        android:translationY="325dp"
+        android:text="SUBSCRIBE"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

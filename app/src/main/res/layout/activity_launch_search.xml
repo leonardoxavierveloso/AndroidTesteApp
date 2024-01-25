@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchSearch">
+
+    <!--Layout do lauch que aparecerar o resultado buscado-->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:textColor="@color/blue"
+        android:textSize="45dp"
+        android:translationX="15dp"
+        tools:text="Education" />
+
+    <ImageView
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/audio"
+        android:background="@color/cyan"
+        android:padding="10dp"
+        android:translationX="-180dp"
+        android:translationY="-330dp" />
+
+    <TextView
+        android:id="@+id/phoneticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:translationX="-170dp"
+        android:translationY="92dp"
+        tools:text="/ˌedʒuˈkeɪʃn/" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1) [uncountable, countable] a process of  teaching, \ntraining and learning, especially in schools, colleges or universities, to improve knowledge and develop skills."
+        android:layout_marginLeft="-327dp"
+        android:translationY="160dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="• primary/elementary education \n• post-secondary education \n• a college/university education \n• She completed her formal education in 2019. \n• Students from lower income families are less \n• likely to continue their education. \n• to further/pursue your education \n• to get/receive an education \n• The school provides an excellent all-round"
+        android:layout_marginLeft="-380dp"
+        android:translationY="220dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="2) [uncountable, singular] a particular kind of teaching \nor training."
+        android:layout_marginLeft="-380dp"
+        android:translationY="380dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="• education about something education about danger \non the roads \n• The council has launched a new health education \ncampaign. \n• an alcohol education programme (= to warn of the \ndangers of alcohol) \n• Patient education is important to minimize the risk of \na second heart attack."
+        android:layout_marginLeft="-380dp"
+        android:translationY="420dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="3) [uncountable] the institutions or people involved \nin teaching and training"
+        android:layout_marginLeft="-380dp"
+        android:translationY="570dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-380dp"
+        android:translationY="615dp"
+        tools:text="• the Education Department \n• the Department of Education \n• There should be closer links between education \nand industry. \n• the education secretary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-380dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationY="730dp"
+        tools:text="That’s it for “education”!"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-380dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/blue"
+        android:translationY="750dp"
+        tools:text="Try another search now!"
+        />
+
+    <Button
+        android:layout_width="358dp"
+        android:layout_height="64dp"
+        android:translationX="-380dp"
+        android:translationY="810dp"
+        android:text="NEW SEARCH"
+        android:id="@+id/signature"
+        />
+
+</LinearLayout>
